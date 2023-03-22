@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+  </head>
+  <body>
+  <title>Document</title>
+  <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .logo{
+
+                margin: 15px;
+                color: white;
+                background-color: rgb(5, 7, 10);
+                font-size: 35px;
+                border-radius: 15px;
+
+        }
+        .logo span{
+            color:red;
+        }
+
+        #menu{
+            
+            height: 80px;
+            width: 100%;
+            justify-content: space-between;
+            display: flex;
+            /* background-color: rgb(103, 7, 172); */
+        background-color: rgb(83, 36, 9);  
+         /* background-color: rgb(56, 15, 153);  */
+            
+        }
+
+        #menu ul{
+            font-size: 25px;
+            margin: 15px;
+            display: flex;
+            list-style-type: none;
+        }
+        #menu ul li{
+                position: relative;
+                padding: 10px 20px;
+        }
+
+        #menu ul li a{
+
+            text-decoration: none;
+            color: white;
+
+        }
+
+        #menu ul li:hover{
+           
+            background-color: red;
+            border-radius: 10px;
+            
+        }
+
+       .footer{
+        /* position: absolute; */
+        height: auto;
+       
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgb(12, 12, 12);
+        /* background-color: rgb(110, 29, 29); */
+        color: rgb(255, 255, 255);
+        text-align: center;
+       }
+
+       .foot{
+                padding-top: 20px;
+                padding-bottom: 20px;
+       }
+
+       .foot ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+       }
+       .foot ul li{
+        margin: 10px;
+       }
+       .foot ul li a{
+        text-decoration: none;
+        font-size: 30px;
+       }
+
+       .main{
+
+        margin-top: 35px;
+
+       }
+
+       .active{
+        background-color: red;
+            border-radius: 10px;
+                      
+       }
+
+      
+ 
+  /*     
+     @media screen and (max-width:800px){
+
+        #menu ul{
+            margin-top: 100px;
+            margin-bottom: 15px;
+            display: block;
+            margin: auto;
+          
+        }
+        #menu{
+
+        display: block;
+        text-align: center;
+        background-color: aqua;
+        }
+        #menu ul li a{
+            color: crimson;
+        }
+        #menu ul .active a{
+            color: rgb(247, 244, 244);
+        }
+        .main{
+            margin-top: 300px;
+           
+        }
+         #menu ul li:hover{
+           
+           background-color: red;
+           border-radius: 10px;
+           color: white;
+       } 
+       #menu ul li:hover a{
+           
+           background-color: red;
+           border-radius: 10px;
+           color: white;
+       }
+     } 
+*/
+
+     body{
+        background-color: rgb(228, 222, 222);
+     }
+
+     .webimg{
+        margin-top: 20px;
+        padding-top: 250px;
+        padding-bottom:170PX;
+        text-align: center;
+       
+       
+       /* background-image: url(https://wallpapercave.com/wp/wp9442907.jpg); */
+       background-image: url(https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/3-supercar-showroom.jpg);
+       /* background-image: url(https://www.motoringresearch.com/wp-content/uploads/2017/10/01_types_of_cars.jpg);  */
+       background-repeat: no-repeat;
+        background-size:cover;
+       
+     }
+
+
+  </style>
+</head>
+<body>
+<body>
+
+
+    <div class="fixed-top" id="menu">
+        <div class="logo">Sahil<span>R</span></div>
+        <ul class="ul">
+            <li  class="active"><a href="temp.1.html">Home</a></li>
+            <li><a href="temp.about.html">About</a></li>
+            <li><a href="temp.service.html">Service</a></li>
+            <li><a href="temp.contect.html">Contect Us</a></li>
+        </ul>
+    </div>
+
+<main class="main">
+
+<div class="webimg">
+    <h1 style="color:rgb(224, 16, 16)" >WE KNOW ALL ABOUT THE CARS</h1>
+    <h2 style="color:rgb(224, 16, 16)" >FOUND YOUR DREAM CAR</h2>
+    <P style="color:rgb(224, 16, 16); font-size: 20px;"><B>Select your car</B></P>
+    <a href="temp.1.1.html" class="btn btn-primary">SELECT HERE</a>
+</div> 
+
+<div class="container">
+    <!-- <h2 class="py-3 text-center">bootstrape card classes</h2> -->
+    <div class="row py-5">
+            <div class="col-md-4">
+                <div class="card">
+            <img src="https://www.indiandrives.com/wp-content/uploads/2014/11/Tata-Motors-Logo.jpg" alt="" style="height: 200px;">
+                   
+                    <div class="card-body">
+                        <h4 class="card-tittle">TATA CARS</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.card.1.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Suzuki_logo_2.svg/1200px-Suzuki_logo_2.svg.png" alt="" style="height: 190px;">
+                    
+                    <div class="card-body">
+                        <h4 class="card-tittle">SUZUKI CARS</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.card.2.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+            <div class="col-md-4">
+                <div class="card">
+                   <img src="https://logos-world.net/wp-content/uploads/2021/09/Mahindra-Mahindra-Before-and-After-Logo-history.png" alt="">
+                   
+                    <div class="card-body">
+                        <h4 class="card-tittle">MAHINDRA CARS</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.card.3.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </div>
+ </div> 
+
+
+
+<div class="container">
+    <!-- <h2 class="py-3 text-center">bootstrape card classes</h2> -->
+    <div class="row py-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.android.com/static/2016/img/auto/logos/hyundai_w_1x.jpg" alt=""  style="height: 200px;">
+                 
+                    <div class="card-body">
+                        <h4 class="card-tittle">HYUNDAI CARS</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.hyundai.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.carlogos.org/car-logos/toyota-logo-1989-1400x1200.png" alt=""  style="height: 190px;">
+                  
+                    <div class="card-body">
+                        <h4 class="card-tittle">TOYOTA CARS</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.toyota.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card">
+                     <img src="https://www.freeiconspng.com/thumbs/honda-logo-png/automotive-car-honda-logo-7.png" alt="" style="height: 200px;">
+                   
+                    <div class="card-body">
+                        <h4 class="card-tittle">HONDA CARS</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.honda.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+    <!-- <h2 class="py-3 text-center">bootstrape card classes</h2> -->
+    <div class="row py-5">
+            <div class="col-md-4">
+                <div class="card">
+             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/LandRover.svg/1200px-LandRover.svg.png" alt="">
+                    
+                    
+                    <div class="card-body">
+                        <h4 class="card-tittle">Land Rover</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.rangrover.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://cdn.mwallpapers.com/photos/celebrities/hd-wallpapers/vehicle-silver-cars-jaguar-xj-jaguar-car-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-v9cxc.jpg" alt="">
+                    
+                    <div class="card-body">
+                        <h4 class="card-tittle">card tittle</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.card.7.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+           
+
+            <div class="col-md-4">
+                <div class="card">
+                    <!-- <img src="https://media.thepeakmagazine.com.sg/public/2022/05/P90462877-lowRes.jpg" alt=""> -->
+                   
+                    <img src="https://img.etimg.com/thumb/msid-69429504,width-1070,height-580,imgsize-586493,overlay-etpanache/photo.jpg" alt="">
+            
+
+                    <div class="card-body">
+                        <h4 class="card-tittle">card tittle</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <a href="temp.card.8.html" class="btn btn-primary">show more</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </div>
+</div>
+
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="foot">
+    <h3>thanks for visiting our website</h3>
+    <p>There are two many cars in our country.If you want to know more about our website visit our showroom and  contect us</p>
+<!--     
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-facebook"></i>
+     <i class="fab fa-facebook"></i>
+    <i class="fa-solid fa-phone"></i> -->
+
+    <ul>
+        <li><a href="#"> <i class="fab fa-facebook" style="height: 20px;"></i></a></li>
+        <li><a href="#"> <i class="fab fa-instagram" style="height:20px;"></i></a></li>
+        <li><a href="#"> <i class="fab fa-twitter" style="height: 20px;"></i></a></li>
+        <li><a href="#"> <i class="fa-solid fa-phone" style="height: 20px;"></i></a></li>
+    </ul>
+
+    <p>copyright &copy; 2023 carshowroom</p>
+
+  </div>
+</footer>
+
+
+
+<!-- 
+<div class="container">
+    <h2 class="py-3 text-center">bootstrape card classes</h2>
+    <div class="row py-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.shutterstock.com/image-photo/attractive-african-young-confident-businesswoman-260nw-1712082700.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-tittle">card tittle</h4>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                             Recusandae fugit laboriosam molestias, in a ab voluptate
+                              consequatur aperiam eum doloribus, magni non. Rerum id 
+                              in, quos voluptatibus rem enim quae.
+                        </p>
+                        <button class="btn btn-primary">read more</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div> -->
+
+</body>
+</html>  
